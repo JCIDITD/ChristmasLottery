@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB05B82C1FD1109700625CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05B82B1FD1109700625CC7 /* AppDelegate.swift */; };
+		CB05B82E1FD1109700625CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05B82D1FD1109700625CC7 /* ViewController.swift */; };
+		CB05B8311FD1109700625CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB05B82F1FD1109700625CC7 /* Main.storyboard */; };
+		CB05B8331FD1109700625CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB05B8321FD1109700625CC7 /* Assets.xcassets */; };
+		CB05B8361FD1109700625CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB05B8341FD1109700625CC7 /* LaunchScreen.storyboard */; };
+		CB05B8411FD1109700625CC7 /* CHRISTMASLOTTERYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05B8401FD1109700625CC7 /* CHRISTMASLOTTERYTests.swift */; };
+		CB05B84C1FD1109800625CC7 /* CHRISTMASLOTTERYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05B84B1FD1109800625CC7 /* CHRISTMASLOTTERYUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB05B83D1FD1109700625CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB05B8201FD1109700625CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB05B8271FD1109700625CC7;
+			remoteInfo = CHRISTMASLOTTERY;
+		};
+		CB05B8481FD1109800625CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB05B8201FD1109700625CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB05B8271FD1109700625CC7;
+			remoteInfo = CHRISTMASLOTTERY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB05B8281FD1109700625CC7 /* CHRISTMASLOTTERY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHRISTMASLOTTERY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB05B82B1FD1109700625CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB05B82D1FD1109700625CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB05B8301FD1109700625CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB05B8321FD1109700625CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB05B8351FD1109700625CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB05B8371FD1109700625CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB05B83C1FD1109700625CC7 /* CHRISTMASLOTTERYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHRISTMASLOTTERYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB05B8401FD1109700625CC7 /* CHRISTMASLOTTERYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHRISTMASLOTTERYTests.swift; sourceTree = "<group>"; };
+		CB05B8421FD1109700625CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB05B8471FD1109800625CC7 /* CHRISTMASLOTTERYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHRISTMASLOTTERYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB05B84B1FD1109800625CC7 /* CHRISTMASLOTTERYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHRISTMASLOTTERYUITests.swift; sourceTree = "<group>"; };
+		CB05B84D1FD1109800625CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB05B8251FD1109700625CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB05B8391FD1109700625CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB05B8441FD1109800625CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB05B81F1FD1109700625CC7 = {
+			isa = PBXGroup;
+			children = (
+				CB05B82A1FD1109700625CC7 /* CHRISTMASLOTTERY */,
+				CB05B83F1FD1109700625CC7 /* CHRISTMASLOTTERYTests */,
+				CB05B84A1FD1109800625CC7 /* CHRISTMASLOTTERYUITests */,
+				CB05B8291FD1109700625CC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB05B8291FD1109700625CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB05B8281FD1109700625CC7 /* CHRISTMASLOTTERY.app */,
+				CB05B83C1FD1109700625CC7 /* CHRISTMASLOTTERYTests.xctest */,
+				CB05B8471FD1109800625CC7 /* CHRISTMASLOTTERYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB05B82A1FD1109700625CC7 /* CHRISTMASLOTTERY */ = {
+			isa = PBXGroup;
+			children = (
+				CB05B82B1FD1109700625CC7 /* AppDelegate.swift */,
+				CB05B82D1FD1109700625CC7 /* ViewController.swift */,
+				CB05B82F1FD1109700625CC7 /* Main.storyboard */,
+				CB05B8321FD1109700625CC7 /* Assets.xcassets */,
+				CB05B8341FD1109700625CC7 /* LaunchScreen.storyboard */,
+				CB05B8371FD1109700625CC7 /* Info.plist */,
+			);
+			path = CHRISTMASLOTTERY;
+			sourceTree = "<group>";
+		};
+		CB05B83F1FD1109700625CC7 /* CHRISTMASLOTTERYTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB05B8401FD1109700625CC7 /* CHRISTMASLOTTERYTests.swift */,
+				CB05B8421FD1109700625CC7 /* Info.plist */,
+			);
+			path = CHRISTMASLOTTERYTests;
+			sourceTree = "<group>";
+		};
+		CB05B84A1FD1109800625CC7 /* CHRISTMASLOTTERYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB05B84B1FD1109800625CC7 /* CHRISTMASLOTTERYUITests.swift */,
+				CB05B84D1FD1109800625CC7 /* Info.plist */,
+			);
+			path = CHRISTMASLOTTERYUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB05B8271FD1109700625CC7 /* CHRISTMASLOTTERY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB05B8501FD1109800625CC7 /* Build configuration list for PBXNativeTarget "CHRISTMASLOTTERY" */;
+			buildPhases = (
+				CB05B8241FD1109700625CC7 /* Sources */,
+				CB05B8251FD1109700625CC7 /* Frameworks */,
+				CB05B8261FD1109700625CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHRISTMASLOTTERY;
+			productName = CHRISTMASLOTTERY;
+			productReference = CB05B8281FD1109700625CC7 /* CHRISTMASLOTTERY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB05B83B1FD1109700625CC7 /* CHRISTMASLOTTERYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB05B8531FD1109800625CC7 /* Build configuration list for PBXNativeTarget "CHRISTMASLOTTERYTests" */;
+			buildPhases = (
+				CB05B8381FD1109700625CC7 /* Sources */,
+				CB05B8391FD1109700625CC7 /* Frameworks */,
+				CB05B83A1FD1109700625CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB05B83E1FD1109700625CC7 /* PBXTargetDependency */,
+			);
+			name = CHRISTMASLOTTERYTests;
+			productName = CHRISTMASLOTTERYTests;
+			productReference = CB05B83C1FD1109700625CC7 /* CHRISTMASLOTTERYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB05B8461FD1109800625CC7 /* CHRISTMASLOTTERYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB05B8561FD1109800625CC7 /* Build configuration list for PBXNativeTarget "CHRISTMASLOTTERYUITests" */;
+			buildPhases = (
+				CB05B8431FD1109800625CC7 /* Sources */,
+				CB05B8441FD1109800625CC7 /* Frameworks */,
+				CB05B8451FD1109800625CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB05B8491FD1109800625CC7 /* PBXTargetDependency */,
+			);
+			name = CHRISTMASLOTTERYUITests;
+			productName = CHRISTMASLOTTERYUITests;
+			productReference = CB05B8471FD1109800625CC7 /* CHRISTMASLOTTERYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB05B8201FD1109700625CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Tengoku no Spoa";
+				TargetAttributes = {
+					CB05B8271FD1109700625CC7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CB05B83B1FD1109700625CC7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB05B8271FD1109700625CC7;
+					};
+					CB05B8461FD1109800625CC7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB05B8271FD1109700625CC7;
+					};
+				};
+			};
+			buildConfigurationList = CB05B8231FD1109700625CC7 /* Build configuration list for PBXProject "CHRISTMASLOTTERY" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB05B81F1FD1109700625CC7;
+			productRefGroup = CB05B8291FD1109700625CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB05B8271FD1109700625CC7 /* CHRISTMASLOTTERY */,
+				CB05B83B1FD1109700625CC7 /* CHRISTMASLOTTERYTests */,
+				CB05B8461FD1109800625CC7 /* CHRISTMASLOTTERYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB05B8261FD1109700625CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB05B8361FD1109700625CC7 /* LaunchScreen.storyboard in Resources */,
+				CB05B8331FD1109700625CC7 /* Assets.xcassets in Resources */,
+				CB05B8311FD1109700625CC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB05B83A1FD1109700625CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB05B8451FD1109800625CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB05B8241FD1109700625CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB05B82E1FD1109700625CC7 /* ViewController.swift in Sources */,
+				CB05B82C1FD1109700625CC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB05B8381FD1109700625CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB05B8411FD1109700625CC7 /* CHRISTMASLOTTERYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB05B8431FD1109800625CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB05B84C1FD1109800625CC7 /* CHRISTMASLOTTERYUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB05B83E1FD1109700625CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB05B8271FD1109700625CC7 /* CHRISTMASLOTTERY */;
+			targetProxy = CB05B83D1FD1109700625CC7 /* PBXContainerItemProxy */;
+		};
+		CB05B8491FD1109800625CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB05B8271FD1109700625CC7 /* CHRISTMASLOTTERY */;
+			targetProxy = CB05B8481FD1109800625CC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB05B82F1FD1109700625CC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB05B8301FD1109700625CC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB05B8341FD1109700625CC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB05B8351FD1109700625CC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB05B84E1FD1109800625CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB05B84F1FD1109800625CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB05B8511FD1109800625CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = CHRISTMASLOTTERY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.CHRISTMASLOTTERY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB05B8521FD1109800625CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = CHRISTMASLOTTERY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.CHRISTMASLOTTERY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB05B8541FD1109800625CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = CHRISTMASLOTTERYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.CHRISTMASLOTTERYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHRISTMASLOTTERY.app/CHRISTMASLOTTERY";
+			};
+			name = Debug;
+		};
+		CB05B8551FD1109800625CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = CHRISTMASLOTTERYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.CHRISTMASLOTTERYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHRISTMASLOTTERY.app/CHRISTMASLOTTERY";
+			};
+			name = Release;
+		};
+		CB05B8571FD1109800625CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = CHRISTMASLOTTERYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.CHRISTMASLOTTERYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHRISTMASLOTTERY;
+			};
+			name = Debug;
+		};
+		CB05B8581FD1109800625CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = CHRISTMASLOTTERYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.CHRISTMASLOTTERYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHRISTMASLOTTERY;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB05B8231FD1109700625CC7 /* Build configuration list for PBXProject "CHRISTMASLOTTERY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB05B84E1FD1109800625CC7 /* Debug */,
+				CB05B84F1FD1109800625CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB05B8501FD1109800625CC7 /* Build configuration list for PBXNativeTarget "CHRISTMASLOTTERY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB05B8511FD1109800625CC7 /* Debug */,
+				CB05B8521FD1109800625CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB05B8531FD1109800625CC7 /* Build configuration list for PBXNativeTarget "CHRISTMASLOTTERYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB05B8541FD1109800625CC7 /* Debug */,
+				CB05B8551FD1109800625CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB05B8561FD1109800625CC7 /* Build configuration list for PBXNativeTarget "CHRISTMASLOTTERYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB05B8571FD1109800625CC7 /* Debug */,
+				CB05B8581FD1109800625CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB05B8201FD1109700625CC7 /* Project object */;
+}
