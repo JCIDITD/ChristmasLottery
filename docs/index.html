@@ -65,16 +65,25 @@
 
     var time = 50
     var timer = setInterval(runLottery,time);
+    var isStopping = false
 
     function start(){
+      if(isStopping){
+        return;
+      }
         time = 50
         count = 1
         timer = setInterval(runLottery,time);
     }
 
+
     var count = 1
     function stop(){
+      if (isStopping==false) {
+        isStopping = true
+      }
         if (count == 5){
+          isStopping = false
             document.getElementById("Stop").innerHTML = "Stop"
             document.getElementById("Title").innerHTML = "Christmas Lottery!"
             clearInterval(timer);
